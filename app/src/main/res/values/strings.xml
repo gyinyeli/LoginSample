@@ -1,8 +1,13 @@
 <resources>
-    <string name="app_name">LoginSample</string>
+    <string name="app_name">Login Sample</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="activity_two">Activity Two</string>
+    <string name="external_url">External Url</string>
+    <string name="send_message">Send Message</string>
+
     <string name="title_activity_user">User</string>
     <string name="login_text">Login Page</string>
     <string name="username_text">User Name</string>
@@ -10,4 +15,6 @@
     <string name="attempts_text">Attempts:</string>
     <string name="button_login">Login</string>
     <string name="welcome_text">Welcome for login</string>
+    <string name="button_url">URL</string>
+    <string name="button_send_text">Send Text</string>
 </resources>
