@@ -30,7 +30,7 @@ public class Login extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setLogo(R.mipmap.ic_launcher);
+        actionBar.setLogo(R.drawable.ic_launcher);
 
         //actionBar().setLogo(R.mipmap.ic_launcher);
 
@@ -128,6 +128,16 @@ public class Login extends ActionBarActivity {
 
     public void gotoActivity(View v){
         Intent intent = new Intent(this, User.class);
+        startActivity(intent);
+    }
+
+    public void gotoMainActivity(View v){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void gotoFlowerActivity(View v){
+        Intent intent = new Intent(this, FlowerActivity.class);
         startActivity(intent);
     }
 

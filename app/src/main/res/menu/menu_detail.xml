@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.samsung.loginsample.DetailActivity">
+
+    <item android:id="@+id/action_addtocart"
+        android:title="@string/add_to_cart"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>
